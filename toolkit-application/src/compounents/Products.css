@@ -1,0 +1,78 @@
+.container {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.allProducts {
+
+    border: solid 1px rgba(0, 0, 0, 0.319);
+    margin-top: 80px;
+    padding: 15px;
+
+}
+.title-allProducts {
+
+    height: 50px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 240px;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+
+.card-body {
+    align-items: center;
+    text-align: center;
+
+}
+
+.imgHome {
+
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin: auto;
+}
+
+.cat {
+
+    margin-right: 10px;
+}
+
+
+.btn-specific-cat {
+
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+
+    margin-top: 100px;
+}
+
+.inp-search {
+    display: flex;
+    margin: auto;
+    width: 30%;
+    margin-top: 40px;
+}
+
+.not-found {
+
+    position: absolute;
+    top: 50%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.btn-card {
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,46 @@
+.cleareAll {
+    font-weight: bold;
+}
+
+.total-price {
+    display: flex;
+    float: right;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 9px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.img-cards {
+    width: 40%;
+}
+
+td {
+
+    height: 50px;
+}
+.quantity {
+    width: 100px;
+}
+
+.action {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.btn-more {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+main {
+    margin: 50px 50px;
+}
+
+.delete-total-price {
+    margin-top: 100px;
+}
